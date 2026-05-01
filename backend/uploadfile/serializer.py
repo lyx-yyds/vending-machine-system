@@ -1,0 +1,6 @@
+from rest_framework import serializers
+
+class UploadFileSerializer(serializers.Serializer):
+    file = serializers.FileField(required=True)
+    # aa=serializers.CharField
+ 
